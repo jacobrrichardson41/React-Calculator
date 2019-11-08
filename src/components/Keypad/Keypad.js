@@ -16,10 +16,10 @@ class Keypad extends Component {
 
                 {/*Fila dos*/}
              <KeypadRow>
-                 <Button ButtonPress={this.props.onButtonPress}>7</Button>
+                 <Button onButtonPress={this.props.onButtonPress}>7</Button>
                  <Button onButtonPress={this.props.onButtonPress}>8</Button>
                  <Button onButtonPress={this.props.onButtonPress}>9</Button>
-                 <Button  onButtonPress={this.props.onButtonPress}type='operator'>*</Button>
+                 <Button onButtonPress={this.props.onButtonPress}type='operator'>*</Button>
              </KeypadRow>
 
                 {/*fila tres*/}
