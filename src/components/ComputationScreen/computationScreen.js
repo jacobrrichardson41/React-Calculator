@@ -1,7 +1,7 @@
 import React, {Component } from 'react';
-import './computationScreen.css';
+import './ComputationScreen.css';
 
-class computationScreen extends Component {
+class ComputationScreen extends Component {
     render() {
 
     
@@ -13,4 +13,4 @@ class computationScreen extends Component {
         );
       } 
     }
-    export default computationScreen;
+    export default ComputationScreen;

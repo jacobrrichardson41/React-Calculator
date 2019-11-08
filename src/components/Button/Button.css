@@ -1,0 +1,31 @@
+.Button {
+    width: 25%;
+    height: 100%;
+    font-size: 20pt;
+    background-color: blue;
+    outline: none;
+    border: 1px solid black;
+    transition: all .2s;
+}
+
+.Button:hover {
+    background-color: green; 
+    color: blue;
+}
+
+.Button:active {
+    transform: scale(.95)
+}
+
+.Button-primary {
+    color: green;
+}
+.Button-operator {
+    color: blue;
+}
+.Button-large {
+    color: orange;
+    background-color: blue; 
+    width: 50%;
+    
+}
