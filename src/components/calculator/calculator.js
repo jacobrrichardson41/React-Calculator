@@ -47,7 +47,7 @@ class Calculator extends Component {
             }catch (error){
             /* If an error occurs, print it to the console and alert the user */
             console.log(error); 
-            alert("You have a virus, it is harming your cumputer please call us at 1800-000-0000 to resolve this issue or just check your equation");
+            alert("You have a virus, it is harming your computer please call us at 1800-000-0000 to resolve this issue or just check your equation");
             }
 
         }else {
